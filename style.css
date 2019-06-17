@@ -1,0 +1,24 @@
+.font .hover {
+    opacity: 0;
+    transition: 0.1s;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: white;
+    object-fit: cover;
+}
+h5{
+  font-size: 20px;
+}
+.font:hover{
+  opacity: 0.1;
+}
+.font:hover .hover{
+    opacity: 1;
+}
+.font{
+    position: relative;
+    display: inline-block;
+}
