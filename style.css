@@ -6,7 +6,9 @@ body{
 .font {
   position: relative;
 }
-
+.abt, .skilled, .exp {
+    font-size: 25px;
+}
 .marv-li{
 z-index: -99999;
 margin-top: -90px;
@@ -346,6 +348,7 @@ footer a:hover{
 .button {
   display: none;
 }
+
 /* footer i:hover{
   color: white;
 } */
@@ -424,10 +427,11 @@ h3,h4{
     cursor: pointer;
     align-self: flex-start;
   }
-}
+
 .abt, .skilled, .exp{
   font-size: 10px;
 }
 .total{
   background-size: contain;
+}
 }
